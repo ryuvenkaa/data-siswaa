@@ -52,6 +52,36 @@ const btnSimpanGuru = document.getElementById("btnSimpanGuru");
 
 const KUNCI_PENYIMPANAN_GURU = "biodata-siswa-guru";
 
+const GURU_AWAL = [
+    {
+        id: "guru-1",
+        nama: "Yasir Nur Maulana",
+        mata_pelajaran: "Teknik Komputer Jaringan",
+        jenis_kelamin: "Laki-laki",
+        alamat: "Banjar",
+        email: "kamisammaaa@gmail.com",
+        jurusan: "TKJ"
+    },
+    {
+        id: "guru-2",
+        nama: "Nurjaman",
+        mata_pelajaran: "Teknik Komputer Jaringan",
+        jenis_kelamin: "Laki-laki",
+        alamat: "Ciamis",
+        email: "contoh.contoh@example.com",
+        jurusan: "TKJ"
+    },
+    {
+        id: "guru-3",
+        nama: "Hatim Gifari",
+        mata_pelajaran: "Teknik Kendaraan Ringan",
+        jenis_kelamin: "Laki-laki",
+        alamat: "Pangandaran",
+        email: "contoh.contoh@example.com",
+        jurusan: "TKR"
+    }
+];
+
 const TAMPILKAN = {
     jenisKelamin: true,
     tanggalLahir: true,
